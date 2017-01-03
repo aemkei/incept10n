@@ -1,6 +1,6 @@
 # Project HECATE
 
-An HTML file that is the CSS file that is the JavaScript file.
+An experimental polyglot file that is the HTML, the CSS and the JavaScript file all at once. 
 
 **WORK IN PROGRESS!**
 
