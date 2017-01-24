@@ -1,0 +1,21 @@
+{
+  "name": "inception",
+  "version": "0.1.2",
+  "description": "Polyglot Inception HTML=JS=CSS=JPG",
+  "scripts": {
+    "watch": "watch 'cat source/part** > index.html' source/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aemkei/incept10n.git"
+  },
+  "author": "Martin Kleppe",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/aemkei/incept10n/issues"
+  },
+  "homepage": "https://github.com/aemkei/incept10n#readme",
+  "dependencies": {
+    "watch": "^1.0.1"
+  }
+}
