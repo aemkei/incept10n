@@ -1,4 +1,5 @@
 html * { background: url() }
+html * { opacity: 0.95 }
 var html; function url(){};
 document.write('<'+'link href="#" rel="stylesheet">');
 // <script charset="ISO-8859-1" src="#"></script>
@@ -6,6 +7,9 @@ document.write('<'+'link href="#" rel="stylesheet">');
 /**
 
 </tt>
+
+<!-- HTML -->
+
 <h1>Polyglot Inception<sup>4</sup></h1>
 <h2>HTML = JS = CSS = JPEG</h2>
 
@@ -52,7 +56,7 @@ document.write('<'+'link href="#" rel="stylesheet">');
   <li>
     The equal sign "=" is not a allowed in CSS selectors 
     but it won't cause the interpretor to stop, 
-    so the following rule will be applied. 
+    so the following rules will be applied. 
   </li>
   <li>
     The rule <code>html * { background: url() }</code> 
@@ -71,8 +75,8 @@ document.write('<'+'link href="#" rel="stylesheet">');
     later, when we refer to it as a JS, CSS and JPEG.
   </li>
   <li>
-    Last thing we need is a open block comment <code>/**</code>, 
-    include the JPEG image data and close the comment at the end.
+    Last thing we need is to include the JPEG image data and 
+    close the block comment at the end of the file.
   </li>
 </ul>
 
@@ -84,14 +88,17 @@ document.write('<'+'link href="#" rel="stylesheet">');
   <li><a href="http://lcamtuf.coredump.cx/squirrel/">Squirrel: HTML+JPEG</a></li>
 </ul>  
 
+<!-- Meta Data -->
 
 <title>Polyglot Inception: HTML = JS = CSS = JPEG</title>
 
 <meta property="og:image" content="http://incept10n.com/" />
 <meta property="og:title" content="Polyglot Inception" />
-<meta property="og:description" content="A four-fold document that is an HTML, JS, CSS and JPEG at the same time." />
+<meta property="og:description" content="A four-fold document that is an HTML, JS, CSS and JPEG at the same time. By @aemkei" />
 <meta property="twitter:image" content="http://incept10n.com/" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@aemkei" />
 
 <sub>
+
+<!-- Image Data -->
