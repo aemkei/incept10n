@@ -1,6 +1,6 @@
-html * { background: url() }
-html * { opacity: 0.95 }
-var html; function url(){};
+inception * { background: url() }
+inception * { opacity: 0.95 }
+var inception; function url(){};
 document.write('<'+'link href="#" rel="stylesheet">');
 // <script charset="ISO-8859-1" src="#"></script>
 
@@ -20,14 +20,33 @@ document.write('<'+'link href="#" rel="stylesheet">');
   It is a HTML, JavaScript, CSS and JPEG all at the same time!
 </p>
 
+<inception><pre>
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+</pre></inception>
+
 <h3>Levels of Inception</h3>
 
 <ol>
   <li>page is loaded and interpreted as an HTML file</li>
-  <li>the HTML contains a with a <code>&lt;script src="#"&gt;</code> tag.</li>
-  <li>the external script dynamically writes a <code>&lt;link rel="stylesheet"&gt;</code></li>
-  <li>the stylesheet renders <code>background: url()</code> – the final JPEG</li>
+  <li>HTML contains a with a <code>&lt;script src="#"&gt;</code> tag.</li>
+  <li>external script dynamically writes a <code>&lt;link rel="stylesheet"&gt;</code></li>
+  <li>stylesheet renders <code>background: url()</code> – the final JPEG</li>
 </ol>
+
 
 <p>
   This project was created by Martin Kleppe, aka <a href="http://twitter.com/aemkei">@aemkei</a>. For other creative hacks, visit <a href="http://aem1k.com/">aem1k.com</a>.
@@ -59,11 +78,11 @@ document.write('<'+'link href="#" rel="stylesheet">');
     so the following rules will be applied. 
   </li>
   <li>
-    The rule <code>html * { background: url() }</code> 
+    The rule <code>inception * { background: url() }</code> 
     is valid CSS and JS at the same time - but to avoid 
     "undefined" errors in JavaScript, we need to 
     <a href="https://developer.mozilla.org/en-US/docs/Glossary/Hoisting">hoist</a> 
-    the variable "html" and the function "url".
+    the variable "inception" and the function "url".
   </li>
   <li>
     Line and block comments make it possible 
@@ -92,6 +111,7 @@ document.write('<'+'link href="#" rel="stylesheet">');
 
 <title>Polyglot Inception: HTML = JS = CSS = JPEG</title>
 
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta property="og:image" content="http://incept10n.com/" />
 <meta property="og:title" content="Polyglot Inception" />
 <meta property="og:description" content="A four-fold document that is an HTML, JS, CSS and JPEG at the same time. By @aemkei" />
@@ -100,5 +120,7 @@ document.write('<'+'link href="#" rel="stylesheet">');
 <meta name="twitter:site" content="@aemkei" />
 
 <sub>
+
+<h3>Image Data</h3>
 
 <!-- Image Data -->
