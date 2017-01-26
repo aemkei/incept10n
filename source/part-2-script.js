@@ -1,12 +1,8 @@
 inception * { background: url() }
-inception * { opacity: 0.95 }
 var inception; function url(){};
 document.write('<'+'link href="#" rel="stylesheet">');
 // <script charset="ISO-8859-1" src="#"></script>
-
-/**
-
-</tt>
+/** </tt>
 
 <!-- HTML -->
 
@@ -16,7 +12,7 @@ document.write('<'+'link href="#" rel="stylesheet">');
 <p>
   This document is a four-fold inception and a so-called 
   "<a href="https://en.wikipedia.org/wiki/Polyglot_(computing)">Polyglot</a>" 
-  – a script written in several languages. 
+  – a page written in several formats. 
   It is a HTML, JavaScript, CSS and JPEG all at the same time!
 </p>
 
@@ -43,10 +39,11 @@ document.write('<'+'link href="#" rel="stylesheet">');
 <ol>
   <li>page is loaded and interpreted as an HTML file</li>
   <li>HTML contains a with a <code>&lt;script src="#"&gt;</code> tag.</li>
-  <li>external script dynamically writes a <code>&lt;link rel="stylesheet"&gt;</code></li>
+  <li>external script dynamically writes a <code>&lt;link href="#" rel="stylesheet"&gt;</code></li>
   <li>stylesheet renders <code>background: url()</code> – the final JPEG</li>
 </ol>
 
+Download as JPG or Text.
 
 <p>
   This project was created by Martin Kleppe, aka <a href="http://twitter.com/aemkei">@aemkei</a>. For other creative hacks, visit <a href="http://aem1k.com/">aem1k.com</a>.
@@ -70,7 +67,7 @@ document.write('<'+'link href="#" rel="stylesheet">');
   <li>
     Because the encoding is set to "ISO-8859-1", 
     the first bunch of characters are <code>ÿØÿá = {}</code>,
-    which is a valid JavaScript variable declaration.
+    which is a valid JavaScript expression.
   </li>
   <li>
     The equal sign "=" is not a allowed in CSS selectors 
@@ -79,10 +76,16 @@ document.write('<'+'link href="#" rel="stylesheet">');
   </li>
   <li>
     The rule <code>inception * { background: url() }</code> 
-    is valid CSS and JS at the same time - but to avoid 
-    "undefined" errors in JavaScript, we need to 
+    is valid CSS and JS at the same time.
+  </li>
+  <li>
+    To avoid "undefined" errors in JavaScript, we need to 
     <a href="https://developer.mozilla.org/en-US/docs/Glossary/Hoisting">hoist</a> 
     the variable "inception" and the function "url".
+  </li>
+  <li>
+     When using <code>href="#"</code>, <code>src="#"</code>
+     or <code>url()</code> it will point to the same ressource. 
   </li>
   <li>
     Line and block comments make it possible 
@@ -119,8 +122,8 @@ document.write('<'+'link href="#" rel="stylesheet">');
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@aemkei" />
 
-<sub>
-
 <h3>Image Data</h3>
+
+<sub>
 
 <!-- Image Data -->
