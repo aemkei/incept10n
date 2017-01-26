@@ -3,7 +3,7 @@
   "version": "0.1.2",
   "description": "Polyglot Inception HTML=JS=CSS=JPG",
   "scripts": {
-    "watch": "watch 'cat source/part** > index.html' source/"
+    "watch": "watch 'sh build.sh' source/"
   },
   "repository": {
     "type": "git",
