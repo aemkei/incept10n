@@ -8,10 +8,10 @@ document.write('<'+'link href="#" rel="stylesheet">');
 <!-- HTML -->
 
 <h1>Polyglot Inception<sup>4</sup></h1>
-<h2>HTML = JS = CSS = JPEG</h2>
+<h2>JPEG = CSS = JS = HTML</h2>
 
 <p>
-  This document a four-fold inception and "<a href="https://en.wikipedia.org/wiki/Polyglot_(computing)">Polyglot</a>" - a page written in several formats. It is a HTML, JavaScript, CSS and JPEG all at the same time!
+  A four-fold inception and "<a href="https://en.wikipedia.org/wiki/Polyglot_(computing)">polyglot</a>". It is an image, style sheet, script and document all at the same time!
 </p>
 
 <!-- Injected Image -->
@@ -38,29 +38,29 @@ document.write('<'+'link href="#" rel="stylesheet">');
 <h3>Levels of Inception</h3>
 
 <ol>
-  <li>page is loaded and interpreted as an HTML file</li>
-  <li>HTML contains <tt>&lt;script src="#"&gt;</tt> tag.</li>
-  <li>script writes <tt>&lt;link href="#" rel="stylesheet"&gt;</tt></li>
-  <li>stylesheet renders <tt>background: url()</tt> - the final JPEG</li>
+  <li>Browser loads page as <tt>index.html</tt></li>
+  <li>HTML contains <tt>&lt;script src="#"&gt;</tt> tag</li>
+  <li>Script writes <tt>&lt;link href="#"&gt;</tt></li>
+  <li>Stylesheet renders <tt>background: url()</tt></li>
 </ol>
 
-<p>This project was created by Martin Kleppe, aka <a href="http://twitter.com/aemkei">@aemkei</a>. For other creative hacks, visit <a href="http://aem1k.com/">aem1k.com</a>.</p>
+<p>Created by Martin Kleppe, aka <a href="http://twitter.com/aemkei">@aemkei</a>. Share it on <a href="https://twitter.com/aemkei/status/824692016747520002">Twitter</a> if you like it. For other creative hacks, visit <a href="http://aem1k.com/">aem1k.com</a>.</p>
 
 <h3>How Does it Work?</h3>
 
 <ul>
-  <li>View the page source and watch the network panel, to see what is going on.</li>
-  <li>The document starts with the HEX signature "FF D8 FF E1" that identifies the file as a JPEG with EXIF data.</li>
-  <li>The following two bytes define the header size. In our case "0D 3D" leaves space for 3389 bytes. </li>
+  <li>View the page source and watch the network panel to see what is going on.</li>
+  <li>The document starts with the HEX signature "FF D8 FF E1" that identifies the file as a JPEG.</li>
+  <li>The following two bytes define the EXIF header size. Here "0D 3D" leaves space for 3389 bytes. </li>
   <li>Because the encoding was set to "ISO-8859-1", the first assignemnt <tt>???? = {}</tt> is a valid JavaScript expression.</li>
   <li>The equal sign is not a allowed in CSS selectors but it won't cause the interpretor to stop. </li>
   <li>The rule <tt>inception * { background: url() }</tt> is valid CSS and JS at the same time.</li>
-  <li>To avoid "undefined" errors in JavaScript, we need to hoist the variable "inception" and the function "url".</li>
-  <li>When using <tt>href="#"</tt>, <tt>src="#"</tt> or <tt>url()</tt> it will point to the same ressource. </li>
+  <li>To avoid errors in JavaScript, we need to hoist the variable "inception" and the function "url".</li>
+  <li>When using <tt>href="#"</tt>, <tt>src="#"</tt> or <tt>url()</tt> it points to the same ressource. </li>
   <li>Line and block comments make it possible to apply the HTML structure and load our script.</li>
   <li>To render HTML on the first run, the "Content-Type" header must be "text/html".</li>
-  <li>The content type will be ignored later, when we refer to it as a JS, CSS and JPEG.</li>
-  <li>Last thing we need is to include the JPEG image data and close the block comment at the end of the file.</li>
+  <li>The type will be ignored later, when we refer to it as a JS, CSS and JPEG.</li>
+  <li>Then we include the JPEG image data and close the block comment at the end of the file.</li>
 </ul>
 
 <h3>Related Projects</h3>
@@ -73,15 +73,15 @@ document.write('<'+'link href="#" rel="stylesheet">');
 
 <!-- Meta Data -->
 
-<title>Polyglot Inception: HTML = JS = CSS = JPEG</title>
+<title>Polyglot Inception: JPEG = CSS = JS = HTML</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="twitter:site" content="@aemkei" />
-<meta name="twitter:card" content="summary" />
-<meta property="og:image" content="http://incept10n.com/" />
-<meta property="twitter:image" content="http://incept10n.com/" />
-<meta property="og:title" content="Polyglot Inception" />
-<meta property="og:description" content="A four-fold document that is an HTML, JS, CSS and JPEG at the same time. By @aemkei" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="og:image" content="http://incept10n.com" />
+<meta property="twitter:image" content="http://incept10n.com" />
+<meta property="og:title" content="Polyglot Inception: JPEG = CSS = JS = HTML" />
+<meta property="og:description" content="A page written in four formats. It is an image, style sheet, script and document - all at the same time! By @aemkei" />
 
 <h3>Image Data:</h3>
 
